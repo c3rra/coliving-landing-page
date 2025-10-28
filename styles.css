@@ -395,6 +395,34 @@ header {
     border: 1px solid rgba(255, 255, 255, 0.6);
 }
 
+.pricing-intro {
+    margin-bottom: 20px;
+}
+
+.pricing-headline {
+    font-size: 24px;
+    font-weight: 800;
+    color: var(--text-dark);
+    margin-bottom: 8px;
+    font-family: var(--font-heading);
+    line-height: 1.2;
+}
+
+.pricing-subhead {
+    font-size: 22px;
+    font-weight: 700;
+    color: var(--brand-orange);
+    margin-bottom: 5px;
+    font-family: var(--font-heading);
+}
+
+.pricing-lead {
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--text-light);
+    font-family: var(--font-body);
+}
+
 .pricing .price {
     font-size: 64px;
     font-weight: 800;
@@ -436,6 +464,17 @@ header {
     background: var(--brand-orange-dark);
     transform: translateY(-3px);
     box-shadow: 0 12px 35px rgba(255, 107, 53, 0.5);
+}
+
+.form-timing {
+    margin-top: 20px;
+    font-size: 16px;
+    color: var(--text-light);
+    font-family: var(--font-body);
+}
+
+.form-timing em {
+    font-style: italic;
 }
 
 .questions-text {
